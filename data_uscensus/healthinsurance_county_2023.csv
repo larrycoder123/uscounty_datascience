@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,PopulationNonInstitutionalized!Insured!Percent
+fips_code,county_name,state_name,pct_pop_health_insured
 01001,Autauga County,Alabama,92.6
 01003,Baldwin County,Alabama,91.8
 01005,Barbour County,Alabama,89.2

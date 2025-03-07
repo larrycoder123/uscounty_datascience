@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,median_age,sex_ratio
+fips_code,county_name,state_name,median_age,males_per_100_females
 01001,Autauga County,Alabama,39.2,93.6
 01003,Baldwin County,Alabama,43.7,95.7
 01005,Barbour County,Alabama,40.7,108.9

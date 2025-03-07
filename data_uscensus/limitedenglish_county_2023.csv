@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,Households!LimitedEnglishSpeaking!Percent
+fips_code,county_name,state_name,pct_households_limited_english_proficiency
 01001,Autauga County,Alabama,0.5
 01003,Baldwin County,Alabama,0.8
 01005,Barbour County,Alabama,2.5

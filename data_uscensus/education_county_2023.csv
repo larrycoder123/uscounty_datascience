@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,Population 25 years and over,Population 25 years and over!Cumulative!High school graduate or higher,Population 25 years and over!Cumulative!Bachelors degree or higher
+fips_code,county_name,state_name,pop25,pop_25plus_highschool_plus,pop_25plus_bachelor_plus
 01001,Autauga County,Alabama,40767,36804,11530
 01003,Baldwin County,Alabama,171988,157767,56408
 01005,Barbour County,Alabama,17628,13717,2021

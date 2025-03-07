@@ -41,8 +41,6 @@ def uscensus_checkseries(variables):
             if beginningstring != series: 
                 raise Exception("Import variables must be of the same series.")
 
-    print(f"All variables belong to {series} series, API link will be adjusted accordingly.")
-
     return series
 
 def uscensus_importcsv(column_dictionary, year, output_file_name):
@@ -146,14 +144,14 @@ def uscensus_modify(output_file_path, specific_variables):
     df = pd.read_csv(f"{output_file_path}", encoding="latin-1", dtype={"State": str, "County": str})
 
     # 1. Merge the "State" Code and "County" Code to create the "FIPS Code" column
-    df["FIPS Code"] = df["State"].astype(str).str.zfill(2) + df["County"].astype(str).str.zfill(3)
+    df["fips_code"] = df["State"].astype(str).str.zfill(2) + df["County"].astype(str).str.zfill(3)
 
     # 2. Split the Name into "County Name" and "State Name"
-    df[["County Name", "State Name"]] = df["Name"].str.split(', ', expand=True)
+    df[["county_name", "state_name"]] = df["Name"].str.split(', ', expand=True)
 
     # 3. Specify columns to keep
     # Start with additional columns to keep
-    additional_columns = ["FIPS Code", "County Name", "State Name"]
+    additional_columns = ["fips_code", "county_name", "state_name"]
     # Add the imported columns specified in the dictionary, except the first one ("NAME")
     imported_columns = specific_variables
     # Combine both lists
@@ -166,7 +164,7 @@ def uscensus_modify(output_file_path, specific_variables):
     df = df[columns_to_keep]
 
     # 4. Remove all counties in Puerto Rico 
-    df = df[df["State Name"] != "Puerto Rico"]
+    df = df[df["state_name"] != "Puerto Rico"]
 
     # 5. Check if df contains 3144 counties 
     if df.shape[0] != 3144: 

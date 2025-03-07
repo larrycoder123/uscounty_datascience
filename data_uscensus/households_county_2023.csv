@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,Total Households,Households!Average Household Size
+fips_code,county_name,state_name,households,mean_household_size
 01001,Autauga County,Alabama,22523.0,2.61
 01003,Baldwin County,Alabama,94642.0,2.5
 01005,Barbour County,Alabama,9080.0,2.39

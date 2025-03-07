@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,Median MonthlyHousingCost,OwnerOccupied!Median MonthlyHousingCost,RenterOccupied!Median MonthlyHousingCost
+fips_code,county_name,state_name,median_monthly_housing_cost,median_monthly_housing_cost_owner_occupied,median_monthly_housing_cost_renter_occupied
 01001,Autauga County,Alabama,1048,953,1200
 01003,Baldwin County,Alabama,1142,1098,1211
 01005,Barbour County,Alabama,640,632,644

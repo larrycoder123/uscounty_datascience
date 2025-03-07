@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,LaborForceParticipation Rate
+fips_code,county_name,state_name,labor_force_participation_rate
 01001,Autauga County,Alabama,59.0
 01003,Baldwin County,Alabama,58.3
 01005,Barbour County,Alabama,44.9

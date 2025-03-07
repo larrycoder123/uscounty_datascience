@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,Households!MedianIncome
+fips_code,county_name,state_name,median_household_income
 01001,Autauga County,Alabama,69841
 01003,Baldwin County,Alabama,75019
 01005,Barbour County,Alabama,44290

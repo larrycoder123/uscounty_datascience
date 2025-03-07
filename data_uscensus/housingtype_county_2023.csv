@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,Households!OwnerOccupiedUnits!Percent,Households!RenterOccupiedUnits!Percent
+fips_code,county_name,state_name,pct_households_owner_occupied,pct_households_renter_occupied
 01001,Autauga County,Alabama,74.9,25.1
 01003,Baldwin County,Alabama,77.5,22.5
 01005,Barbour County,Alabama,67.5,32.5

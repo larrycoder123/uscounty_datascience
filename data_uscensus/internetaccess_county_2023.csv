@@ -1,4 +1,4 @@
-FIPS Code,County Name,State Name,Total Households,Households!With an Internet Subscription
+fips_code,county_name,state_name,households,households_with_internet
 01001,Autauga County,Alabama,22523,20484
 01003,Baldwin County,Alabama,94642,85082
 01005,Barbour County,Alabama,9080,6565
